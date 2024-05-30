@@ -22,3 +22,23 @@ p {
     color: #666;
     font-size: 18px;
 }
+
+/* Contenedor de la imagen */
+.image-container {
+    text-align: center;
+}
+
+/* Estilos para la imagen */
+.mi-imagen {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la imagen */
+    border: 5px solid #fff; /* Borde de la imagen */
+    transition: transform 0.3s ease; /* Transición para la animación */
+}
+
+/* Efecto hover */
+.mi-imagen:hover {
+    transform: scale(1.05); /* Escalar ligeramente al pasar el mouse */
+}
